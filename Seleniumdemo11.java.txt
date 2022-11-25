@@ -8,7 +8,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 
 
 
-public class Seleniumdemo11 {
+public class Dharun {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
