@@ -1,13 +1,10 @@
--- create a table
 CREATE TABLE students (
   id INTEGER PRIMARY KEY,
   name TEXT NOT NULL,
   gender TEXT NOT NULL
 );
--- insert some values
 INSERT INTO students VALUES (1, 'Ryan', 'M');
 INSERT INTO students VALUES (2, 'Joanna', 'F');
--- fetch some values
 SELECT * FROM students WHERE gender = 'F';
 CREATE TABLE demo1 (  
 ID INT NOT NULL,  NAME VARCHAR (20) NOT NULL, AGE INT NOT NULL,  ADDRESS CHAR (25),  PRIMARY KEY (ID)    
